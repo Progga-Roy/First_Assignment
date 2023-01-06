@@ -1,45 +1,95 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-.header{
-   background-image: url('./images/banner/banner2.png');
+
+.header {
+    background-image: url('./images/banner/banner2.png');
     height: 809px;
 }
-.mission-detail{
+
+.mission-detail {
     /* padding: 216px 885px; */
     padding-top: 216px;
     margin-right: 230px;
 }
-.header-title{
+
+.header-title {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
     text-align: right;
-    
+
     color: #151414;
     /* padding: 216px 885px; */
 
 }
-.header-description{
+
+.header-description {
     text-align: right;
     margin-top: 24px;
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-    
+    font-size: 16px;
+    line-height: 26px;
+
 
 }
-.header-btn{
+
+.header-btn {
     text-align: right;
 }
-.contact-btn{
-padding: 21px 26px;
-font-weight: 600;
-font-size: 20px;
-line-height: 23px;
-margin-top: 70px;
-background: #F15B22;
-border-radius: 5px;
-border: 0;
+
+.contact-btn {
+    padding: 21px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 70px;
+    background: #F15B22;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
+
+.identify-failure-problem-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 206px;
+    max-width: 1072px;
+    height: 724px;
+    /* text-align: center; */
+}
+.img-div{
+    margin-top: 130px;
+}
+.person-img img {
+    width: 569px;
+    height: 723.3px;
+}
+
+.failure-problems {
+    margin-top: 370px;
+}
+
+.title-for-failure-reason {
+    font-size: 40px;
+    color: #151414;
+}
+
+.description-for-failure-reason {
+
+    font-size: 16px;
+    /* line-height: 26px; */
+    color: #444343;
+    margin-top: 24px;
+
+}
+
+.reason {
+    margin-top: 16px;
+
+    color: #444343;
+}
+.reason i{
+    color: #F15B22;
 }
