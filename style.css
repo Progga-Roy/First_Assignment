@@ -141,3 +141,56 @@
     color: #737272;
 
 }
+
+.communicate-section {
+    margin-top: -30px;
+    padding: 0 230px 0 230px;
+    /* background-image: url('./images/watch.png');] */
+    /* background-image: linear-gradient(to right,#dce2c8,#a8dcd1,#65def1);? */
+
+    /* background-image: linear-gradient(to bottom, rgba(117,19,93,0.73),rgba(245,246,252,0.52)),url('./images/watch.png'); */
+    /* background-image: linear-gradient(to right,
+            #6491738c, #dbd5a498, rgba(215, 145, 14, 0.61), #6491738c, 
+            #999966), url('./images/watch.png'); */
+            /* background-image: linear-gradient(to right,
+            #11b3478c, #b9a51498, rgba(215, 145, 14, 0.61), #6491738c, 
+            #999966), url('./images/watch.png'); */
+            background-image: linear-gradient(to right,
+            #3ca55c9e,  hwb(55 29% 29% / 0.584),rgba(106, 106, 228, 0.763 )), url('./images/watch.png');
+            /* rgba(106, 106, 228, 0.763 */
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 300px;
+    margin-left: 230px;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0)); */
+    border-radius: 8px;
+
+}
+
+
+.communicate-title-div{
+   
+   text-align: center;
+   display: flex;
+   justify-content: flex-start;
+    font-size: 30px;
+    color: #FFFFFF;
+    /* color: #151414; */
+}
+.communicate-title{
+    text-align: left;
+    margin-top: 70px;
+margin-left: -160px;
+
+}
+.call-btn{
+    margin-left: -160px;
+    padding: 21px 36px;
+    color:#F15B22;
+    background-color:#ffffff;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 24px;
+    font-size: 18px;
+}
