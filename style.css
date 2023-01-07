@@ -10,7 +10,7 @@
 }
 
 .mission-detail {
- 
+
     padding-top: 216px;
     margin-right: 230px;
 }
@@ -21,7 +21,7 @@
     line-height: 76px;
     text-align: right;
     color: #151414;
-  
+
 
 }
 
@@ -49,6 +49,10 @@
     color: #FFFFFF;
     border-radius: 5px;
     border: 0;
+}
+.contact-btn:hover{
+    background-color: #FFFFFF;
+    color: #F15B22;
 }
 
 .identify-failure-problem-section {
@@ -81,7 +85,7 @@
 .description-for-failure-reason {
 
     font-size: 16px;
-    /* line-height: 26px; */
+   
     color: #444343;
     margin-top: 24px;
 
@@ -145,11 +149,11 @@
 .communicate-section {
     margin-top: -30px;
     padding: 0 230px 0 230px;
-background-image: linear-gradient(to right,
-            #11b3478c, #b9a51498, rgba(215, 145, 14, 0.61), #6491738c, 
-            #999966), url('./images/watch.png'); 
     /* background-image: linear-gradient(to right,
-            #3ca55c9e, hwb(55 29% 29% / 0.584), rgba(106, 106, 228, 0.763)), url('./images/watch.png'); */
+            #11b3478c, #b9a51498, rgba(215, 145, 14, 0.61), #6491738c, 
+            #999966), url('./images/watch.png');  */
+    background-image: linear-gradient(to right,
+            #3ca55c9e, hwb(55 29% 29% / 0.584), rgba(106, 106, 228, 0.763)), url('./images/watch.png');
     /* rgba(106, 106, 228, 0.763 */
     background-position: center;
     background-repeat: no-repeat;
@@ -189,6 +193,10 @@ background-image: linear-gradient(to right,
     margin-top: 24px;
     font-size: 18px;
 }
+.call-btn:hover{
+    background-color:#F15B22;
+    color: #ffffff;
+}
 
 .footer-container {
     display: flex;
@@ -206,7 +214,7 @@ background-image: linear-gradient(to right,
 
 .future-title {
     font-size: 45px;
-    color: #F8F8F8;
+    color: #F15B22;
 
 }
 
@@ -237,7 +245,7 @@ background-image: linear-gradient(to right,
     font-size: 25px;
     line-height: 29px;
 
-    color: #FFFFFF;
+    color:#F15B22;
 
 }
 
@@ -258,7 +266,100 @@ input {
     margin-top: 16px;
     padding: 20px 34px;
     font-size: 20px;
-
     color: #F15B22;
     border-radius: 8px;
+}
+#subscribe-btn:hover{
+background-color: transparent;
+border: 1px solid #F15B22;
+color: #FFFFFF;
+}
+
+.routine-section{
+background-color:rgb(224, 224, 224);
+background-color:rgb(238, 235, 235);
+     padding: 0 230px;
+ 
+    
+
+}
+.routine{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.routine-title{
+    margin-top: 130px;
+    font-size: 45px;
+    text-align: center;
+
+}
+.contact-title{
+    font-size: 35px;
+    color: #151414;
+}
+#span-text{
+    color: #F15B22;
+}
+#description{
+    margin-top: 16px;
+    color: #5a5959;
+    font-size: 18px;
+
+}
+.massage-area{
+    margin-top: 200px;
+    margin-right: 60px;
+text-align: center;
+
+}
+textarea{
+    margin-top: 24px;
+    border: 0;
+    background-color:rgb(198, 195, 195);
+   color: #151414;
+padding: 20px 24px;
+font-size: 18px;
+outline: 0;
+    
+border-radius: 5px;
+}
+#send-btn{
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+}
+#send-btn:hover{
+    background-color:rgb(157, 154, 154);
+    background-color:white;
+    color: #F15B22;
+}
+table{
+    border-collapse: collapse;
+width: 300px;
+height: 300px;
+background-color:rgb(198, 195, 195);
+/* background-color: rgb(195, 228, 239); */
+box-shadow: 5px 5px 7px grey;
+margin-bottom: 12px;
+border-radius: 10px;
+color: #151414;
+            
+}
+thead{
+    background-color: #e76f40;
+    color: #ffffff;
+}
+td,th{
+    border: 1px solid rgb(114, 114, 116);
+    padding: 5px 20px;
+}
+#special{
+    background-color: #aeadad;
+ 
 }
